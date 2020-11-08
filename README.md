@@ -1,7 +1,7 @@
 # Towny
 
-A PocketMine-MP Plugin | Towny
+A towny plugin for PocketMine-MP server software.
 
-## You can contribute my project!
+## Contributing
 
-if your language is not available, you can add your language.
+If your language is not available, you can add your language by making a **[Pull request](https://github.com/IceCruelStuff/Towny/pulls)**.
