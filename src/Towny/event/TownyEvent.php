@@ -1,5 +1,7 @@
 <?php
+
 declare(strict_types=1);
+
 namespace Towny\event;
 
 use pocketmine\event\Cancellable;
@@ -7,16 +9,21 @@ use pocketmine\event\CancellableTrait;
 use pocketmine\event\Event;
 use Towny\Towny;
 
-abstract class TownyEvent extends Event implements Cancellable{
-	use CancellableTrait;
+abstract class TownyEvent extends Event implements Cancellable
+{
 
-	protected $towny;
+    use CancellableTrait;
 
-	public function __construct(Towny $towny){
-		$this->towny = $towny;
-	}
+    protected $towny;
 
-	public function getTowny() : Towny{
-		return $this->towny;
-	}
+    public function __construct(Towny $towny)
+    {
+        $this->towny = $towny;
+    }
+
+    public function getTowny() : Towny
+    {
+        return $this->towny;
+    }
+
 }
