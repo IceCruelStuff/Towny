@@ -1,7 +1,7 @@
 name: Towny
 author: alvin0319
 main: Towny\TownyLoader
-version: 0.0.3
+version: 0.0.4
 api: 4.0.0
 
 description: Towny plugin for PocketMine-MP
