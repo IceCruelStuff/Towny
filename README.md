@@ -1,6 +1,6 @@
 # Towny
 
-A Towny plugin for PocketMine-MP .
+A Towny plugin for PocketMine-MP.
 
 ## Contributing
 
